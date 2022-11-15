@@ -1,0 +1,293 @@
+@font-face {
+	font-family: "gilroy-regular";
+	src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.eot);
+	src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.eot#iefix)
+			format("embedded-opentype"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.woff2)
+			format("woff2"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.woff)
+			format("woff"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.ttf)
+			format("truetype"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.svg#Gilroy-Regular)
+			format("svg");
+}
+@font-face {
+	font-family: "gilroy-medium";
+	src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.eot);
+	src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.eot#iefix)
+			format("embedded-opentype"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.woff2)
+			format("woff2"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.woff)
+			format("woff"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.ttf)
+			format("truetype"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.svg#Gilroy-Medium)
+			format("svg");
+}
+@font-face {
+	font-family: "gilroy-light";
+	src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.eot);
+	src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.eot#iefix)
+			format("embedded-opentype"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.woff2)
+			format("woff2"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.woff)
+			format("woff"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.ttf)
+			format("truetype"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.svg#Gilroy-Light)
+			format("svg");
+}
+@font-face {
+	font-family: "gilroy-semibold";
+	src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.eot);
+	src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.eot#iefix)
+			format("embedded-opentype"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.woff2)
+			format("woff2"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.woff)
+			format("woff"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.ttf)
+			format("truetype"),
+		url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.svg#Gilroy-SemiBold)
+			format("svg");
+}
+* {
+	--font-size-xs: 12px;
+	--font-size-s: 14px;
+	--font-size-m: 18px;
+	--font-size-l: 20px;
+	--font-size-xl: 28px;
+	--font-size-xxl: 34px;
+	--font-size-large-heading: 56px;
+	--font-size-number: 100px;
+	--font-size-column-heading: 14px;
+	--font-size-column-link: 12px;
+}
+@media screen and (min-width: 720px) {
+	* {
+		--font-size-xs: 14px;
+		--font-size-s: 16px;
+		--font-size-m: 20px;
+		--font-size-l: 20px;
+		--font-size-xl: 32px;
+		--font-size-xxl: 40px;
+		--font-size-large-heading: 56px;
+		--font-size-number: 120px;
+		--font-size-column-heading: 16px;
+		--font-size-column-link: 14px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	* {
+		--font-size-l: 24px;
+		--font-size-large-heading: 64px;
+		--font-size-number: 150px;
+	}
+}
+* {
+	--margin-s: 12px;
+	--margin-m: 16px;
+	--margin-l: 24px;
+	--margin-xl: 36px;
+	--margin-xxl: 42px;
+	--padding-vs: 6px;
+	--padding-s: 8px;
+	--padding-m: 12px;
+	--padding-l: 20px;
+	--padding-xl: 30px;
+	--padding-xxL: 48px;
+	--border-radius-s: 6px;
+	--border-radius-m: 12px;
+	--border-radius-l: 16px;
+}
+@media screen and (min-width: 720px) {
+	* {
+		--margin-s: 12px;
+		--margin-m: 18px;
+		--margin-l: 24px;
+		--margin-xl: 36px;
+		--margin-xxl: 42px;
+		--padding-vs: 8px;
+		--padding-s: 12px;
+		--padding-m: 16px;
+		--padding-l: 24px;
+		--padding-xl: 36px;
+		--padding-xxL: 64px;
+		--padding-12-24: 12px 16px 12px 24px;
+		--border-radius-s: 8px;
+		--border-radius-m: 16px;
+		--border-radius-l: 24px;
+	}
+}
+@media screen and (min-width: 1024px) {
+}
+* {
+	--color-text: #000000;
+	--color-background: #ffffff;
+	--color-background-2: #f5f8ff;
+	--color-cta-blue: #136fd6;
+	--color-cta-text: #ffffff;
+	--color-blue-op: #2d9cdb10;
+	--color-blue: #2d9cdb;
+	--color-blue-text: #3b82f6;
+	--color-blue-number: #76a5e6;
+	--color-darkblue: #165fa3;
+	--color-orange-op: #f2994a10;
+	--color-orange: #f2994a;
+	--color-green-op: #21965310;
+	--color-green: #219653;
+	--color-purple-op: #9b51e010;
+	--color-purple: #9b51e0;
+	--color-red-op: #f6523c10;
+	--color-red: #f6523c;
+	--lg-darkblue: linear-gradient(90deg, #000c40 0%, #607d8b 100%);
+	--lg-black: linear-gradient(90deg, #536976 0%, #292e49 100%);
+	--lg-green: linear-gradient(98.55deg, #40bc75 46.92%, #1d643f 93.46%);
+	--lg-orange: linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
+	--tablet-size: 720px;
+	--laptop-size: 1024px;
+	--max-width: 1200px;
+	--max-width-large: 1300px;
+	--gutter: 24px;
+}
+@media screen and (min-width: var(--tablet-size)) {
+	* {
+		--gutter: 40px;
+	}
+}
+@media screen and (min-width: var(--laptop-size)) {
+	* {
+		--gutter: 100px;
+	}
+}
+
+/* PITCH SECTION  */
+
+.pitch-section {
+	margin: var(--margin-xxl) auto;
+}
+.btn-xl {
+	padding: 12px 80px;
+	margin: var();
+	font-size: 20px;
+	border-radius: var(--border-radius-m);
+}
+.pitch-head1 {
+	font-family: "gilroy-light", sans-serif;
+	font-size: var(--font-size-l);
+	font-weight: 100;
+}
+.pitch-head2 {
+	font-family: "gilroy-semibold", sans-serif;
+	font-size: var(--font-size-xl);
+	font-weight: 500;
+}
+.pitch-text {
+	font-family: "gilroy-regular", sans-serif;
+	font-size: var(--font-size-m);
+	font-weight: 500;
+	line-height: 150%;
+	width: 100%;
+}
+
+/* FUNDING SECTION  */
+
+.fund-section {
+	margin: var(--margin-xxl) auto;
+}
+.fund-section .row {
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.grid-big-text {
+	font-size: var(--font-size-xl);
+}
+.grid-left,
+.grid-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	min-height: fit-content;
+}
+.grid-left {
+	padding-right: var(--margin-l);
+	border-right: 2px solid gray;
+	border-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0),
+			var(--color-text),
+			rgba(0, 0, 0, 0)
+		)
+		1 100%;
+}
+.grid-left img {
+	width: 150px;
+}
+.grid-right {
+	margin-left: -2rem;
+}
+.grid-gray-text {
+	font-family: "gilroy-semibold", sans-serif;
+	opacity: 0.4;
+	font-size: var(--font-size-m);
+}
+
+/* MENTORING SECTION  */
+
+.block-title-style {
+	font-family: "gilroy-semibold", sans-serif !important;
+	color: var(--color-text);
+	opacity: 0.4;
+	font-weight: 600;
+	font-size: var(--font-size-l) !important;
+	text-align: center;
+}
+.mentoring-section-images {
+	margin: var(--margin-xl) auto;
+}
+.mentoring-section-images h4 {
+	margin: var(--margin-xl);
+	text-align: center;
+	font-family: "gilroy-regular", sans-serif;
+	font-weight: 600;
+}
+.faq-title {
+	font-family: "gilroy-light", sans-serif !important;
+	font-weight: 400;
+	font-size: var(--font-size-xl) !important;
+	text-align: left;
+	margin-bottom: var(--margin-xl);
+}
+.faq-content {
+	font-family: "gilroy-regular", sans-serif !important;
+	font-size: var(--font-size-m) !important;
+	text-align: left;
+}
+
+@media screen and (min-width: 720px) {
+	.pitch-section {
+		text-align: left;
+	}
+	.grid-big-text {
+		font-size: var(--font-size-large-heading);
+	}
+	.pitch-text {
+		width: 80%;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.pitch-section {
+		text-align: left;
+	}
+	.pitch-text {
+		width: 80%;
+	}
+	.grid-big-text {
+		font-size: var(--font-size-large-heading);
+	}
+}
